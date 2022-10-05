@@ -12,3 +12,20 @@ body {
 .emoticons {
   font-size: 1.5em;
 }
+
+.topsection {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.againBtn {
+  width: 300px;
+  height: 80px;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #333333;
+  border: none;
+  font-family: inherit;
+}
