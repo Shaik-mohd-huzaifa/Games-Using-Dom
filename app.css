@@ -14,7 +14,9 @@ body {
 }
 h1 {
   margin: 0px;
-  color: #000;
+  background-image: linear-gradient(180deg, #8a4af3, #b3f34a);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 /* @supports (background-clip: text) { 
         h1 {
@@ -41,7 +43,7 @@ h1 {
   padding: 1rem 0rem;
   text-decoration: none;
   font-size: 2rem;
-  color: #b3f34a;
+  color: black;
 }
 @media screen and (max-width: 980px) {
   .maincontainer {
