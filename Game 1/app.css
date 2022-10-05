@@ -1,1 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press start 2P", "courier new";
+  font-size: 10px;
+  background-color: #333333;
+  /* background-color: #5db761; */
+  color: white;
+  margin: 0px;
+}
