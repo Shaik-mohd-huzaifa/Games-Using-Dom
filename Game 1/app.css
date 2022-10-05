@@ -111,3 +111,19 @@ h1 {
   background-color: #fff;
   color: #333333;
 }
+
+.scoreboard {
+  width: 50%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.scoreboard p {
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
+.scoreboard p:nth-child(1) {
+  margin-bottom: 80px;
+}
