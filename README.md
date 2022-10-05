@@ -36,8 +36,11 @@ document.querySelector("ElementName").Properties;
 
 - Here document is the entry point for the Dom to fetch the Data.
 
-> DOM Properties used in this Repository
+<br>
 
+#### DOM Properties used in this Repository
+
+<hr>
 ```javascript
 document.querySelector("ElementName").textContent;
 ```
@@ -53,3 +56,25 @@ document.querySelector("ElementName").style.backgroundColor;
 ```javascript
 document.querySelector("ElementName").style.color;
 ```
+
+<br>
+
+Here we have even used a different way of assigning a event listener to a element
+
+<hr>
+
+```javascript
+document.querySelector("elementName").addEventListener("click", function () {
+  // Code to be Executed when clicked on element
+  document.querySelector("body").style.backgroundColor = "#fff";
+});
+```
+
+#### Element Names to be Used as in there original form
+
+<hr>
+
+- body
+- .className (the dot should be used as prefix)
+- #id (the hash should be used as prefix)
+- a (normal form)
