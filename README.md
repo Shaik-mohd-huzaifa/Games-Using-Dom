@@ -41,6 +41,7 @@ document.querySelector("ElementName").Properties;
 #### DOM Properties used in this Repository
 
 <hr>
+
 ```javascript
 document.querySelector("ElementName").textContent;
 ```
