@@ -29,3 +29,27 @@ This repository contains Webpages with Dom Manipulation Techniques
 <hr>
 
 ![](<images/Screenshot%20(8).png>)
+
+```javascript
+document.querySelector("ElementName").Properties;
+```
+
+- Here document is the entry point for the Dom to fetch the Data.
+
+> DOM Properties used in this Repository
+
+```javascript
+document.querySelector("ElementName").textContent;
+```
+
+```javascript
+document.querySelector("ElementName").value;
+```
+
+```javascript
+document.querySelector("ElementName").style.backgroundColor;
+```
+
+```javascript
+document.querySelector("ElementName").style.color;
+```
