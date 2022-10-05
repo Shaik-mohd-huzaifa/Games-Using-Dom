@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+.maincontainer {
+  width: 100%;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+h1 {
+  margin: 0px;
+  color: #000;
+}
+/* @supports (background-clip: text) { 
+        h1 {
+          background-color: linear-gradient(45deg, #8a4af3, #b3f34a);
+          background-clip: text;
+          color: transparent; 
+        }
+      } */
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  justify-content: space-evenly;
+}
+.link-container a {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  border-radius: 0.5rem;
+  width: 30%;
+  background-color: #8a4af3;
+  /* border: 4px solid #000; */
+  padding: 1rem 0rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #b3f34a;
+}
+@media screen and (max-width: 980px) {
+  .maincontainer {
+    font-size: 1.3rem;
+  }
+  .link-container a {
+    font-size: 1.3rem;
+    width: 50%;
+  }
+}
