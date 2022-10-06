@@ -9,39 +9,40 @@
   </head>
   <body>
     <div class="outershell">
-    <div class="topsection">
-      <button class="againBtn" id="againBtn">Play Again</button>
-      <p class="rangediscription">(Between 1 and 20)</p>
-    </div>
-    <h1>Guess My Number!</h1>
-    <div class="numberboard">
-      <p class="box" id="rightAnswerDisplayBox">?</p>
-      <div class="line"></div>
-    </div>
-    <div class="bottomSection">
-      <div class="inputbox">
-        <input
-          type="number"
-          name="numberinput"
-          id="numberinput"
-          max="20"
-          min="1"
-          required
-        />
-        <button class="check" type="submit">Check!</button>
+      <div class="topsection">
+        <button class="againBtn" id="againBtn">Play Again</button>
+        <p class="rangediscription">(Between 1 and 20)</p>
       </div>
-      <div class="scoreboard">
-        <p class="guesscompliment">Start Guessing ........</p>
-        <p class="defaultscore">
-          <span class="emoticons">💯</span> Score : <span id="gasLeft">20</span>
-        </p>
-        <p class="highscore">
-          <span class="emoticons">🥳</span> High Score :
-          <span id="highestscore">0</span>
-        </p>
+      <h1>Guess My Number!</h1>
+      <div class="numberboard">
+        <p class="box" id="rightAnswerDisplayBox">?</p>
+        <div class="line"></div>
+      </div>
+      <div class="bottomSection">
+        <div class="inputbox">
+          <input
+            type="number"
+            name="numberinput"
+            id="numberinput"
+            max="20"
+            min="1"
+            required
+          />
+          <button class="check" type="submit">Check!</button>
+        </div>
+        <div class="scoreboard">
+          <p class="guesscompliment">Start Guessing ........</p>
+          <p class="defaultscore">
+            <span class="emoticons">💯</span> Score :
+            <span id="gasLeft">20</span>
+          </p>
+          <p class="highscore">
+            <span class="emoticons">🥳</span> High Score :
+            <span id="highestscore">0</span>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
     <script src="main.js"></script>
   </body>
 </html>
