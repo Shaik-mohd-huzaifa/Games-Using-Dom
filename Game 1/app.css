@@ -172,4 +172,11 @@ h1 {
     width: 100%;
     padding-top: 2rem;
   }
+  .scoreboard p {
+    font-size: 0.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .scoreboard p:nth-child(1) {
+    margin-bottom: 1.6rem;
+  }
 }
