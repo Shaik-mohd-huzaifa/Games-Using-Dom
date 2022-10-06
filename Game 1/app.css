@@ -160,5 +160,12 @@ h1 {
   .inputbox input {
     width: 50%;
     height: 40px;
+    border: 3.5px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .inputbox button {
+    width: 52%;
+    height: 40px;
+    font-size: 1rem;
   }
 }
