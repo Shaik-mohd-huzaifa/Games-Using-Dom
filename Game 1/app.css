@@ -157,5 +157,8 @@ h1 {
     width: 100%;
     flex-direction: row;
   }
-  .ip;
+  .inputbox input {
+    width: 50%;
+    height: 40px;
+  }
 }
