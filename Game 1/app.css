@@ -168,4 +168,8 @@ h1 {
     height: 40px;
     font-size: 1rem;
   }
+  .scoreboard {
+    width: 100%;
+    padding-top: 2rem;
+  }
 }
