@@ -193,4 +193,10 @@ h1 {
   h1 {
     font-size: 1rem;
   }
+  .outershell {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
