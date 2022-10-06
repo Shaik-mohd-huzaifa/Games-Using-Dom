@@ -132,6 +132,7 @@ h1 {
   .topsection {
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
   }
   .againBtn {
     width: 60%;
