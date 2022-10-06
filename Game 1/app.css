@@ -151,9 +151,11 @@ h1 {
   }
   .bottomSection {
     flex-direction: column;
+    margin-top: 2rem;
   }
   .inputbox {
     width: 100%;
     flex-direction: row;
   }
+  .ip;
 }
