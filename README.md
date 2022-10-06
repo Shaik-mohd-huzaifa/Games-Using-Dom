@@ -10,7 +10,7 @@ This repository contains Webpages with Dom Manipulation Techniques
 
 > This Url Contains all 3 Games
 
-- [Link to the Main Page](index.html)
+- [Link to the Main Page](https://github.com/Shaik-mohd-huzaifa/Games-Using-Dom/blob/b057f916d7e46b388bdba7c9419808b5d25cb1bf/index.html)
 
 #### This Repository includes 3 Games when are completely based on DOM
 
