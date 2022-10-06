@@ -185,3 +185,12 @@ h1 {
     margin-bottom: 1.6rem;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .topsection p {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
