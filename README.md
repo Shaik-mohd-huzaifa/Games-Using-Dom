@@ -10,7 +10,7 @@ This repository contains Webpages with Dom Manipulation Techniques
 
 > This Url Contains all 3 Games
 
-- [Link to the Main Page]()
+- [Link to the Main Page](index.html)
 
 #### This Repository includes 3 Games when are completely based on DOM
 
