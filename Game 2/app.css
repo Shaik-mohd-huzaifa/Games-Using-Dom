@@ -38,3 +38,7 @@ body {
   justify-content: center;
   visibility: hidden;
 }
+
+.Model-content.active {
+  visibility: visible;
+}
