@@ -42,3 +42,11 @@ body {
 .Model-content.active {
   visibility: visible;
 }
+
+.inner-container {
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  background-color: white;
+  position: relative;
+}
