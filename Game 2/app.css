@@ -11,3 +11,16 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.modal {
+  width: 300px;
+  height: 40px;
+  font-family: "Montserrat";
+  border: 0px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
