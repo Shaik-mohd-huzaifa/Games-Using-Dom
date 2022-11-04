@@ -41,6 +41,18 @@ body {
   z-index: 1000;
 }
 
+.overlay {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.343);
+  backdrop-filter: blur(10px);
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: 100;
+}
+
 .active {
   visibility: visible;
 }
