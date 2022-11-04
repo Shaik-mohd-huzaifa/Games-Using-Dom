@@ -1,9 +1,8 @@
 "use strict";
 let model = document.querySelectorAll(".modal");
 let modelContent = document.querySelectorAll(".Model-content");
-let modelContentrem;
 let overlay = document.querySelector(".overlay");
-let closewindow = document.querySelector(".closewindow");
+let closewindow = document.querySelectorAll(".closewindow");
 console.log(model.length);
 
 // Adds the eventlistener to add active
