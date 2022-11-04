@@ -14,3 +14,11 @@ for (let i = 0; i < model.length; i++) {
     overlay.classList.add("active");
   });
 }
+
+// Adds the eventlistener to the ModelContent container to remove the active
+for (let i = 0; i < closewindow.length; i++) {
+  closewindow[i].addEventListener("click", function () {
+    modelContent[i].classList.remove("active");
+    overlay.classList.remove("active");
+  });
+}
