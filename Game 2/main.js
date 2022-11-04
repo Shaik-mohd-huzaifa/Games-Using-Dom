@@ -32,4 +32,5 @@ for (let i = 0; i < closewindow.length; i++) {
       modelContent[i].classList.remove("active");
       overlay.classList.remove("active");
     }
+  });
 }
