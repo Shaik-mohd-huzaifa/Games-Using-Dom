@@ -21,4 +21,9 @@ for (let i = 0; i < closewindow.length; i++) {
     modelContent[i].classList.remove("active");
     overlay.classList.remove("active");
   });
+  // Eventlistner to add the remove active class in overlays
+  overlay.addEventListener("click", function (e) {
+    modelContent[i].classList.remove("active");
+    overlay.classList.remove("active");
+  });
 }
