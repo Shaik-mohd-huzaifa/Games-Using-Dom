@@ -26,4 +26,10 @@ for (let i = 0; i < closewindow.length; i++) {
     modelContent[i].classList.remove("active");
     overlay.classList.remove("active");
   });
+  // Keyboard Events
+  document.addEventListener("keyup", function (e) {
+    if (e.key === "Escape" && modelContent[i].classList.contains("active")) {
+      modelContent[i].classList.remove("active");
+      overlay.classList.remove("active");
+    }
 }
