@@ -13,6 +13,7 @@ body {
 .maincontainer {
   width: 100%;
   padding: 3rem 0;
+  padding-bottom: 1rem;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -44,6 +45,28 @@ h1 {
 
 .link-container a:hover {
   transform: scale(1.05);
+}
+
+.impressum {
+  width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.impressum p {
+  padding: 5px 15px;
+  background-color: #5271ff;
+  width: fit-content;
+  font-size: 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.impressum p span {
+  color: red;
+  margin-left: 5px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 980px) {
