@@ -1,6 +1,5 @@
 "use strict";
 let SecretNum = Math.trunc(Math.random() * 20 - 1);
-console.log(SecretNum);
 let reducingvalue = 20;
 // Function to find out the right Secret Number
 document.querySelector(".check").addEventListener("click", function () {
