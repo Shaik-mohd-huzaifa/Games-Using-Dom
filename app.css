@@ -52,6 +52,8 @@ h1 {
   padding-right: 20px;
   box-sizing: border-box;
   text-align: right;
+  transition: display 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
 }
 
 .impressum p {
@@ -63,10 +65,21 @@ h1 {
   border-top-right-radius: 5px;
 }
 
+.impressum :hover .username {
+  display: inline-block;
+}
+
 .impressum p span {
   color: red;
   margin-left: 5px;
   font-size: 22px;
+}
+
+.impressum p .username {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  display: none;
 }
 
 @media screen and (max-width: 980px) {
