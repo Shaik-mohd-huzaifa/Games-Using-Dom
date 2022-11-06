@@ -3,7 +3,7 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 10px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: White;
   background-image: url("images/baked.png");
   background-repeat: no-repeat;
@@ -39,7 +39,13 @@ h1 {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.link-container a:hover {
+  transform: scale(1.05);
+}
+
 @media screen and (max-width: 980px) {
   .maincontainer {
     font-size: 1.3rem;
