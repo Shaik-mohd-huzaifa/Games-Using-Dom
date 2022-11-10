@@ -4,3 +4,20 @@ html {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(to right, #800080, #ffc0cb); */
+  background-image: linear-gradient(
+    to right,
+    #3f5efb,
+    #fc466b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 0;
+}
