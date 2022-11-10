@@ -21,3 +21,16 @@ body {
 
   margin: 0;
 }
+
+main {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 3rem rgba(0, 0, 0, 0.452);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
