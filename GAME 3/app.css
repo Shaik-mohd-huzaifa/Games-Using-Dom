@@ -96,3 +96,10 @@ main {
   font-family: "montserrat";
   margin: 0;
 }
+
+.dice,
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
