@@ -69,3 +69,30 @@ main {
   margin: 0.5rem 0 5rem;
   color: #3f5efb;
 }
+
+.player .currentscore {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fc466ae8;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 5px;
+}
+
+.player .currentscore .current-label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "montserrat";
+  margin: 0;
+  text-align: center;
+}
+
+.player .currentscore .current-score {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem !important;
+  font-family: "montserrat";
+  margin: 0;
+}
