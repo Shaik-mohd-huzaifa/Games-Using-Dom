@@ -183,3 +183,20 @@ main {
 .error.hidden {
   display: none;
 }
+
+.popup .playername {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.popup input {
+  width: 50%;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  padding: 10px;
+  border: none;
+  background-color: #fc466aa9;
+  color: white;
+  font-family: "poppins";
+}
