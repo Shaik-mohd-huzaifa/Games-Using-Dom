@@ -200,3 +200,29 @@ main {
   color: white;
   font-family: "poppins";
 }
+
+.buttons {
+  width: 50%;
+  margin: 0px auto !important;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.buttons button {
+  width: 45%;
+  padding: 5px;
+  border: 0;
+  background-color: #3f5efb;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+}
