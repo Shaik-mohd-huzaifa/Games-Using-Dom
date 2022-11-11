@@ -161,3 +161,12 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+
+.close {
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  right: 13px;
+  font-size: 2rem;
+  cursor: pointer;
+}
