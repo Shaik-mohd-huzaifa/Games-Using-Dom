@@ -28,3 +28,19 @@ function playerNameFinal(p1, p2) {
   player1NameDisplay.textContent = p1;
   player2NameDisplay.textContent = p2;
 }
+
+const playerNameDeclaration = function () {
+  console.log(nextbutton.className);
+  if (nextbutton.className === "next-ok next") {
+    player1Name = playerNameInput.value;
+    playerNameInput.value = "";
+    playerHeader.textContent = "2";
+    nextbutton.classList.remove("next");
+    nextbutton.classList.add("ok");
+    nextbutton.textContent = "OK";
+  } else if ((nextbutton.className = "next-ok ok")) {
+    player2Name = playerNameInput.value;
+    playerDetailsEle.classList.add("hidden");
+    playerNameFinal(player1Name, player2Name);
+  }
+};
