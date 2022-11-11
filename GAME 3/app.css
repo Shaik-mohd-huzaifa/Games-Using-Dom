@@ -226,3 +226,10 @@ main {
 .buttons button:hover {
   transform: scale(1.1);
 }
+
+.skip {
+  background-color: rgb(186, 183, 183);
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 10.5px;
+}
