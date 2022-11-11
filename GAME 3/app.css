@@ -170,3 +170,16 @@ main {
   font-size: 2rem;
   cursor: pointer;
 }
+
+.error {
+  padding: 2px 10px;
+  width: 50%;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  background-color: rgba(255, 0, 0, 0.607);
+  display: block;
+}
+
+.error.hidden {
+  display: none;
+}
