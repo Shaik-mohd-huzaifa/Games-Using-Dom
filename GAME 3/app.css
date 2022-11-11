@@ -146,3 +146,18 @@ main {
 .playerDetails.hidden {
   visibility: hidden;
 }
+
+.popup {
+  position: relative;
+  width: 35rem;
+  border-radius: 10px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
