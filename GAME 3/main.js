@@ -44,3 +44,12 @@ const playerNameDeclaration = function () {
     playerNameFinal(player1Name, player2Name);
   }
 };
+
+nextbutton.addEventListener("click", playerNameDeclaration);
+document.querySelector("body").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    playerNameDeclaration();
+  } else if (e.key === "Escape") {
+    playerDetailsEle.classList.add("hidden");
+  }
+});
