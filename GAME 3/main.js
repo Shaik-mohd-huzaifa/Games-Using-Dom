@@ -18,8 +18,13 @@ const playerHeader = document.querySelector(".playerNumber");
 const player1NameDisplay = document.getElementById("name--0");
 const player2NameDisplay = document.getElementById("name--1");
 
-function afterfirstplayersName() {
-  player2Name = playerNameInput.value;
-  console.log();
-  //   playerDetailsEle.classList.add("hidden");
+// function afterfirstplayersName() {
+//   player2Name = playerNameInput.value;
+//   console.log();
+//   //   playerDetailsEle.classList.add("hidden");
+// }
+
+function playerNameFinal(p1, p2) {
+  player1NameDisplay.textContent = p1;
+  player2NameDisplay.textContent = p2;
 }
