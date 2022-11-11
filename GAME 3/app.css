@@ -130,3 +130,19 @@ main {
 .btn--roll {
   bottom: 6rem;
 }
+
+.playerDetails {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.479);
+  backdrop-filter: blur(10px);
+  visibility: visible;
+}
+
+.playerDetails.hidden {
+  visibility: hidden;
+}
