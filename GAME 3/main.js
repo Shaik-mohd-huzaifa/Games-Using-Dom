@@ -45,11 +45,14 @@ const playerNameDeclaration = function () {
   }
 };
 
-nextbutton.addEventListener("click", playerNameDeclaration);
-document.querySelector("body").addEventListener("keydown", function (e) {
-  if (e.key === "Enter") {
-    playerNameDeclaration();
-  } else if (e.key === "Escape") {
-    playerDetailsEle.classList.add("hidden");
-  }
+previousbutton.addEventListener("click", function () {
+  nextbutton.classList.remove("ok");
+  nextbutton.classList.add("next");
+  playerHeader.textContent = "1";
+  playerNameInput.value = player1Name;
+});
+
+closeButton.addEventListener("click", function () {
+  playerDetailsEle.classList.add("hidden");
+  playerNameFinal(player1Name, player2Name);
 });
