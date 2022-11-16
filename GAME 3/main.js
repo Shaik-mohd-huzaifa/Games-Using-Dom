@@ -65,3 +65,15 @@ closeButton.addEventListener("click", function () {
   playerDetailsEle.classList.add("hidden");
   playerNameFinal(player1Name, player2Name);
 });
+
+// Game working Elements
+const score0El = document.querySelector("#score--0");
+const score1El = document.querySelector("#score--1");
+const currentScore0El = document.querySelector("#current--0");
+const currentScore1El = document.querySelector("#current--1");
+const diceEl = document.querySelector(".dice");
+const btnHold = document.querySelector(".btn--hold");
+const btnRoll = document.querySelector(".btn--roll");
+const btnNew = document.querySelector(".btn--new");
+const player0Cn = document.querySelector(".player--0");
+const player1Cn = document.querySelector(".player--1");
