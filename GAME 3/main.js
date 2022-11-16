@@ -105,3 +105,5 @@ function switchplayer() {
   player1Cn.classList.toggle("player--active");
   currentScore0 = 0;
 }
+
+diceEl.classList.add("hidden");
