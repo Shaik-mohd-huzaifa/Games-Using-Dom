@@ -57,6 +57,10 @@ main {
   border-top-left-radius: 0;
   background-color: rgba(255, 255, 255, 0.23);
 }
+
+.winner {
+  background-color: rgba(0, 0, 0, 0.644);
+}
 .player .name {
   font-size: 2.5rem;
   font-family: "Nunito";
