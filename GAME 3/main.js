@@ -97,3 +97,11 @@ const init = function () {
 };
 
 init();
+
+function switchplayer() {
+  document.getElementById(`current--${activePlayer}`).textContent = 0;
+  activePlayer = activePlayer === 0 ? 1 : 0;
+  player0Cn.classList.toggle("player--active");
+  player1Cn.classList.toggle("player--active");
+  currentScore0 = 0;
+}
