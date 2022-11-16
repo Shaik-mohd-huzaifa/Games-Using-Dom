@@ -63,7 +63,6 @@ previousbutton.addEventListener("click", function () {
 
 closeButton.addEventListener("click", function () {
   playerDetailsEle.classList.add("hidden");
-  playerNameFinal(player1Name, player2Name);
 });
 
 // Game working Elements
