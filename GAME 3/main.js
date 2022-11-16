@@ -107,3 +107,19 @@ function switchplayer() {
 }
 
 diceEl.classList.add("hidden");
+
+btnRoll.addEventListener("click", function () {
+  if (playing) {
+    const randomDice = Math.trunc(Math.random() * 6) + 1;
+    diceEl.src = `dice-${randomDice}.png`;
+    diceEl.classList.remove("hidden");
+    if (randomDice !== 1) {
+      currentScore0 += randomDice;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore0;
+    } else {
+      switchplayer();
+      // Using Dry principles
+    }
+  }
+});
