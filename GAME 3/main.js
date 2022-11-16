@@ -123,3 +123,26 @@ btnRoll.addEventListener("click", function () {
     }
   }
 });
+
+// Event listener for the Hold
+btnHold.addEventListener("click", function () {
+  if (playing) {
+    // Generates the current score and displayes it on the page
+    scores[activePlayer] += currentScore0;
+    document.getElementById(`score--${activePlayer}`).textContent =
+      scores[activePlayer];
+    if (scores[activePlayer] >= 10) {
+      diceEl.classList.add("hidden");
+      document
+        .querySelector(`.player--${activePlayer}`)
+        .classList.add("winner");
+      document
+        .querySelector(`.player--${activePlayer}`)
+        .classList.remove("player--active");
+      playing = false;
+    } else {
+      // switchs the next player
+      switchplayer();
+    }
+  }
+});
