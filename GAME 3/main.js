@@ -77,3 +77,21 @@ const btnRoll = document.querySelector(".btn--roll");
 const btnNew = document.querySelector(".btn--new");
 const player0Cn = document.querySelector(".player--0");
 const player1Cn = document.querySelector(".player--1");
+
+// First declaring the values outside the function because we cannot used the value initalized inside the function can be access with simple syntax we need to use scope
+let currentScore0, activePlayer, playing, scores;
+// This function will basically initalize the game elements again and start a new game
+const init = function () {
+  currentScore0 = 0;
+  activePlayer = 0;
+  playing = true;
+  scores = [0, 0];
+  score0El.textContent = 0;
+  score1El.textContent = 0;
+  currentScore0El.textContent = 0;
+  currentScore1El.textContent = 0;
+  player0Cn.classList.add("player--active");
+  player1Cn.classList.remove("player--active");
+  player0Cn.classList.remove("winner");
+  player1Cn.classList.remove("winner");
+};
