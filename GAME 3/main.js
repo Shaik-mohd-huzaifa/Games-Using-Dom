@@ -95,3 +95,5 @@ const init = function () {
   player0Cn.classList.remove("winner");
   player1Cn.classList.remove("winner");
 };
+
+init();
